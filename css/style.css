@@ -1,0 +1,361 @@
+:root {
+  font-size: 14px; 
+}
+body{
+	margin: 0;
+  padding: 0;
+}
+.container{
+	display: flex;
+  	flex-direction: column;
+  	flex-wrap: wrap;
+ 	margin: .5vw;
+}
+.head{
+	background-image: url(../images/background.jpeg);	
+	background-repeat: no-repeat;
+	background-size: 100vw 80vh;
+	padding: 0px;
+	}
+.head img{
+	width:22vw;
+	height: 50vh;
+	margin-left:3%;
+	margin-top: 3%;
+	padding: 3px;
+	border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px 2px;    
+}
+.head .heading{
+	font-size: 3rem;
+	font-family: verdana;
+	font-weight: bolder;
+	text-align: left;
+	color: white;
+	margin-top: 2vh;
+	margin-left: 10px;
+	padding: 0 1vw 1vw;
+}
+.head .contact{
+	font-size: 2rem;
+	font-family: verdana;
+	text-align: left;
+	margin-left: 10px;
+	color: white;
+	padding: 0 1vw 1vw;
+}
+
+/*End of Header*/
+/*Start of About Me*/
+.about{
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100vw 70vh;
+}
+.about h1{
+	font-family: verdana;
+	font-weight: bolder;
+	text-align: center;
+	color: black;
+	margin-top: 20px;
+    padding: 15px;
+}
+.aboutme{
+	margin-left: 5%;
+}
+.banner{
+	width: 60%;
+	height: auto;
+}
+.banner .card {
+  display: flex;
+  flex-direction: column;
+}
+.about .aboutme .banner .card p{
+	font-size: 1.4rem;
+font-family: verdana;
+text-align:justify;
+font-weight: bold;
+padding: 5px;
+}
+/*End of About Me*/
+/*Start of Content*/
+.content{
+	background-color: white;
+	padding: 20px;
+}
+.content img{
+	width: 20vw;
+	height: 20vh;
+	margin-left: 8vw;
+	margin-top: 2vh;
+	padding: 5px;
+	border: 1px solid black;
+    border-radius: 7px;
+    box-shadow: 0px 3px 15px 2px;
+}
+.content h1{
+	font-size: 2rem;
+	font-family: verdana;
+	font-weight: bolder;
+	text-align: center;
+	color: black;
+	margin-top: 20px;
+    padding: 15px;
+}
+/*End of Content*/
+/*Start of work*/
+.work{
+	background-color: #eee;
+	padding: 15px;
+}
+.work h1{
+	font-size: 2rem;
+	font-family: verdana;
+	font-weight: bolder;
+	text-align: center;
+	color: black;
+	margin-top: 20px;
+    padding: 15px;
+}
+.work p{
+	font-size: 1rem;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 10px;
+font-family: verdana;
+text-align:justify;
+font-weight: bold;
+}
+
+/*End of Work*/
+/*Start of Project*/
+.project{
+	background-color: white;
+	padding: 15px;
+}
+.project h1{
+	font-size: 2rem;
+	font-family: verdana;
+	font-weight: bolder;
+	text-align: center;
+	color: black;
+	margin-top: 20px;
+    padding: 15px;
+}
+.project p{
+	font-size: 1rem;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 10px;
+font-family: verdana;
+text-align:justify;
+font-weight: bold;
+}
+/*End of Project*/
+/*Start of Icons Group*/
+ .icon-group {
+ 	margin-left: 3vw;
+  margin-top: 1.3vh;
+}
+ .icon-group .icon {
+    margin-right: 10px;
+    width: 25px;
+}/*End of Icons Group*/
+
+
+/*Start of media Queries*/
+
+@media screen and (min-width: 500px) and (max-width: 768px){ 
+	.head{
+		background-image: url(../images/background.jpeg);	
+	background-repeat: no-repeat;
+	background-size: 100vw 70vh;
+}
+      .head img{
+      	width:15vw;
+		height: 23vh;
+      }
+    .head .heading{
+	font-size: 1.5rem;
+	}
+	.head .contact{
+	font-size: 1.1rem;
+	}
+	
+.about{
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 110vw 50vh;
+}
+.about h1{
+	font-size: 1.5rem;
+	margin-top: 10px;
+    padding: 5px;
+}
+.aboutme{
+	margin-left: 5%;
+}
+.banner{
+	width: 60%;
+	height: auto;
+}
+.banner .card {
+  display: flex;
+  flex-direction: column;
+}
+.about .aboutme .banner .card p{
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 1rem;
+padding: 5px;
+}
+
+.content{
+	padding: 10px;
+}
+.content img{
+	width: 10vw;
+	height: 10vh;
+	margin-left: 10vw;
+	margin-top: 1vh;
+	padding: 2px;
+
+}
+.content h1{
+	font-size: 1.5rem;
+	margin-top: 10px;
+    padding: 5px;
+}
+
+.work h1{
+	font-size: 1.5rem;
+	margin-top: 10px;
+    padding: 5px;
+}
+.work p{
+	font-size: 1rem;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 8px;
+}
+.project h1{
+	font-size: 1.5rem;
+	margin-top: 10px;
+    padding: 5px;
+}
+.project p{
+	font-size: 1rem;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 8px;
+}
+
+ .icon-group {
+ 	margin-left: 3vw;
+  margin-top: 1.3vh;
+}
+ .icon-group .icon {
+    margin-right: 8px;
+    width: 15px;
+}
+    }
+
+
+
+
+ @media only screen and (max-width: 480px){ 
+	.head{
+		background-image: url(../images/background.jpeg);	
+	background-repeat: no-repeat;
+	background-size: 100vw 60vh;
+}
+      .head img{
+      	width:10vw;
+		height: 15vh;
+      }
+    .head .heading{
+	font-size: 1.2rem;
+	}
+	.head .contact{
+	font-size: 1rem;
+	}
+	
+.about{
+	background-size: 100vw 75vh;
+}
+.about h1{
+	font-size: 1rem;
+	margin-top: 10px;
+    padding: 5px;
+}
+.aboutme{
+	margin-left: 5%;
+}
+.banner{
+	width: 60%;
+	height: auto;
+}
+.banner .card {
+  display: flex;
+  flex-direction: column;
+}
+.about .aboutme .banner .card p{
+	font-size: .8rem;
+padding: 5px;
+}
+
+.content{
+	padding: 10px;
+}
+.content img{
+	width: 10vw;
+	height: 10vh;
+	margin-left: 10vw;
+	margin-top: 1vh;
+	padding: 2px;
+
+}
+.content h1{
+	font-size: 1rem;
+	margin-top: 10px;
+    padding: 5px;
+}
+
+.work h1{
+	font-size: 1rem;
+	margin-top: 10px;
+    padding: 5px;
+}
+.work p{
+	font-size: .8rem;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 8px;
+}
+.project h1{
+	font-size: 1rem;
+	margin-top: 10px;
+    padding: 5px;
+}
+.project p{
+	font-size: .8rem;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 8px;
+}
+
+ .icon-group {
+ 	margin-left: 3vw;
+  margin-top: 1.3vh;
+}
+ .icon-group .icon {
+    margin-right: 8px;
+    width: 13px;
+}
+    }
+
+    }
+
+/*End of media Queries*/
